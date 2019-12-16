@@ -4,4 +4,4 @@ Help's you identify identify dead pixel's or image retention issues with the Tou
 
 ## Installation
 
-Get the [latest release](/releases/)
+Get the [latest release](https://github.com/amarcu5/TouchBarDisplayTest/releases)
