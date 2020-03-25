@@ -8,12 +8,10 @@
 
 import Cocoa
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+@NSApplicationMain class AppDelegate: NSObject, NSApplicationDelegate {
   
+  /// Terminate application once last window closes
   func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
     return true
   }
-  
 }
-

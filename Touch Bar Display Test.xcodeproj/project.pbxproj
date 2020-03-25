@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85346DED242AB83B0063F05A /* NSTouchBar+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85346DEC242AB83B0063F05A /* NSTouchBar+Private.swift */; };
+		85346DEF242AB8BD0063F05A /* NSMenuItem+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85346DEE242AB8BD0063F05A /* NSMenuItem+Closure.swift */; };
 		8537BC7B23A6F99B00609177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8537BC7A23A6F99B00609177 /* AppDelegate.swift */; };
 		8537BC7D23A6F99B00609177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8537BC7C23A6F99B00609177 /* ViewController.swift */; };
 		8537BC7F23A6F99C00609177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8537BC7E23A6F99C00609177 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		85346DEC242AB83B0063F05A /* NSTouchBar+Private.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTouchBar+Private.swift"; sourceTree = "<group>"; };
+		85346DEE242AB8BD0063F05A /* NSMenuItem+Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenuItem+Closure.swift"; sourceTree = "<group>"; };
 		8537BC7723A6F99B00609177 /* Touch Bar Display Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Bar Display Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8537BC7A23A6F99B00609177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8537BC7C23A6F99B00609177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,8 +41,6 @@
 		8537BC8123A6F99C00609177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8537BC8323A6F99C00609177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8537BC8423A6F99C00609177 /* TouchBarDisplayTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarDisplayTest.entitlements; sourceTree = "<group>"; };
-		8537BC8A23A6F9EB00609177 /* NSTouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTouchBar.h; sourceTree = "<group>"; };
-		8537BC8B23A6FA0400609177 /* TouchBarDisplayTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchBarDisplayTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		8537BC8F23A6FA3300609177 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,8 +78,8 @@
 			children = (
 				8537BC7A23A6F99B00609177 /* AppDelegate.swift */,
 				8537BC7C23A6F99B00609177 /* ViewController.swift */,
-				8537BC8A23A6F9EB00609177 /* NSTouchBar.h */,
-				8537BC8B23A6FA0400609177 /* TouchBarDisplayTest-Bridging-Header.h */,
+				85346DEE242AB8BD0063F05A /* NSMenuItem+Closure.swift */,
+				85346DEC242AB83B0063F05A /* NSTouchBar+Private.swift */,
 				8537BC7E23A6F99C00609177 /* Assets.xcassets */,
 				8537BC8023A6F99C00609177 /* Main.storyboard */,
 				8537BC8323A6F99C00609177 /* Info.plist */,
@@ -167,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8537BC7D23A6F99B00609177 /* ViewController.swift in Sources */,
+				85346DEF242AB8BD0063F05A /* NSMenuItem+Closure.swift in Sources */,
+				85346DED242AB83B0063F05A /* NSTouchBar+Private.swift in Sources */,
 				8537BC7B23A6F99B00609177 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BQ6Q24MF9X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TouchBarDisplayTest/Info.plist;
@@ -316,10 +321,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amarcus.TouchBarDisplayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "TouchBarDisplayTest/TouchBarDisplayTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
@@ -338,6 +343,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BQ6Q24MF9X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TouchBarDisplayTest/Info.plist;
@@ -345,10 +351,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amarcus.TouchBarDisplayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "TouchBarDisplayTest/TouchBarDisplayTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
