@@ -1,6 +1,6 @@
 #  Touch Bar Display Test
 
-Help's you identify identify dead pixel's or image retention issues with the Touch Bar by way of display different color's.
+Help's you identify dead pixel's or image retention issues with the Touch Bar by way of display different color's.
 
 ## Installation
 
